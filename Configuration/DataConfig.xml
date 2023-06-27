@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!--    General-->
+    <!--<PlatformName>web</PlatformName>-->
+
+    <!-- Authorization -->
+    <UserName>Admin</UserName>
+    <Password>admin123</Password>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</url>
+    <ImageRepo>C:\\AutomationProjects\\Projects\\OrangeHRM\\ImageRepository\\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/searchLeftPanel.csv</DDTFile>
+
+    <!-- Mobile -->
+    <UDID>36cc723c0904</UDID>
+    <APP_PACKAGE>com.wighthat.MetricConversion</APP_PACKAGE>
+    <APP_ACTIVITY>.SplashActivity</APP_ACTIVITY>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <urlAPI>https://reqres.in/</urlAPI>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/svetlana/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBURL></DBURL>
+    <DBUserName></DBUserName>
+    <DBPassword></DBPassword>
+</Environment>
